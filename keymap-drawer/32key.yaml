@@ -7,9 +7,9 @@ layers:
     - {t: Space}
     - {t: TRACKBALL, type: held} 
   NUM:
-    - [HOME, END, UP, BSPC, DEL, "=", {h: "&", t: 7},{h: "*", t: 8},{h: "(", t: 9}, BSPC]
+    - [HOME, END, UP, BSPC, DEL, null, {h: "&", t: 7},{h: "*", t: 8},{h: "(", t: 9}, null]
     - [Tab, LEFT, DOWN, RIGHT, Page Up, "-", {h: "$", t: 4},{h: "%", t: 5},{h: "^", t: 6}, "+"]
-    - [null, null, null, null, Page Down, "Space", {h: "!", t: 1}, {h: "@", t: 2},{h: "#", t: 3}, .]
+    - [null, null, null, null, Page Down, null, {h: "!", t: 1}, {h: "@", t: 2},{h: "#", t: 3}, .]
     - null
     - {h: ")", t: 0}
     - {t: TRACKBALL, type: held}
