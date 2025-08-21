@@ -1,0 +1,59 @@
+layers:
+  DEF:
+    - [{h: F1, t: Q}, {h: F2, t: W}, {h: F3, t: E}, {h: F4, t: R}, {h: F5, t: T}, {h: F6, t: Y}, {h: F7, t: U}, {h: F8, t: I}, {h: F9, t: O}, {h: F10, t: P}]
+    - [{h: Gui, t: A}, {h: Alt, t: S}, {h: Ctrl, t: D}, {h: Shift, t: F}, {h: F11, t: G}, {h: F12, t: H}, {h: Shift, t: J}, {h: Ctrl, t: K}, {h: Alt, t: L}, {h: Gui, t: ";"}]
+    - [Z, X, C, V, B, N, M, ",", ., /]
+    - {h: NUM,   t: Space}
+    - {t: Space}
+    - {t: TRACKBALL, type: held} 
+  NUM:
+    - [HOME, END, UP, BSPC, DEL, "=", {h: "&", t: 7},{h: "*", t: 8},{h: "(", t: 9}, BSPC]
+    - [Tab, LEFT, DOWN, RIGHT, Page Up, "-", {h: "$", t: 4},{h: "%", t: 5},{h: "^", t: 6}, "+"]
+    - [null, null, null, null, Page Down, "Space", {h: "!", t: 1}, {h: "@", t: 2},{h: "#", t: 3}, .]
+    - null
+    - {h: ")", t: 0}
+    - {t: TRACKBALL, type: held}
+  AUTO_MOUSE:
+    - [null, null, null, null,null, null, null, null,null, null]
+    - [null, null, null, null,null, null, null, null,null, null]
+    - [null, null, null, null,null, null, MB1, MB2, MB3, SCROLL]
+    - null
+    - null
+    - {t: TRACKBALL, type: held}
+  PUBG:
+    - [TAB, Q, W, E, R, F1, F2, F3, F4, F5]
+    - [SHIFT, A, S, D, F, 3, G, MB2, MB4, MB5]
+    - [Ctrl, Z, X, C, {h: Alt, t: V}, MB3, MB1, 2, 1, SCROLL]
+    - Space
+    - M
+    - {t: TRACKBALL, type: held}
+  POE2:
+    - [TAB, Q, W, E, {h: T, t: R}, Y, U, {h: K, t: I}, {h: L, t: O}, P]
+    - [SHIFT, A, S, D, {h: G, t: F}, H, J, MB2, MB3, 4]
+    - [Ctrl, Z, X, C, {h: Alt, t: V}, {h: B, t: 5}, MB1, 1, 2, 3]
+    - Space
+    - Space
+    - {t: TRACKBALL, type: held}
+    
+combos:
+  - {p: [0, 1], k: "ESC", l: ["DEF"]}
+  - {p: [1, 2], k: "~", l: ["DEF"]}
+  - {p: [17, 18], k: "Enter", l: ["DEF"]}
+  - {p: [27, 28], k: "Caps", l: ["DEF"]}
+  - {p: [20, 21], k: "Cut", l: ["DEF"]}
+  - {p: [21, 22], k: "Copy", l: ["DEF"]}
+  - {p: [22, 23], k: "Paste", l: ["DEF"]}
+  - {p: [18, 19], k: "'", l: ["DEF"]}
+  - {p: [2, 3], k: "[]", l: ["DEF"]}
+  - {p: [3, 4], k: "|", l: ["DEF"]}
+  
+  - {p: [28, 17], k: "MB5", l: ["AUTO_MOUSE"]}
+  - {p: [26, 17], k: "MB4", l: ["AUTO_MOUSE"]}
+  - {p: [26, 27], k: "M", l: ["AUTO_MOUSE"]}
+  
+  - {p: [17, 18], k: "=", l: ["PUBG"]}
+  - {p: [25, 26], k: "B", l: ["PUBG"]}
+  - {p: [25, 31], k: "N", l: ["PUBG"]}
+  
+  - {p: [25, 26], k: "N", l: ["POE2"]}
+  - {p: [26, 27], k: "M", l: ["POE2"]}
