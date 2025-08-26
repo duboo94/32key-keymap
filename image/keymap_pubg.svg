@@ -158,13 +158,13 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">R</text>
 </g>
-<g transform="translate(476, 62)" class="key keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F1</text>
+<g transform="translate(476, 62)" class="key held keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">F1</text>
 </g>
-<g transform="translate(532, 62)" class="key keypos-6">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F2</text>
+<g transform="translate(532, 62)" class="key held keypos-6">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">F2</text>
 </g>
 <g transform="translate(588, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -259,17 +259,21 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SCROLL</text>
 </g>
-<g transform="translate(289, 251) rotate(10.0)" class="key keypos-30">
+<g transform="translate(199, 255)" class="key keypos-30">
+<rect rx="6" ry="6" x="-51" y="-36" width="102" height="73" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">TRACKBALL</tspan></text>
+</g>
+<g transform="translate(289, 251) rotate(10.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Space</text>
 </g>
-<g transform="translate(438, 250) rotate(-10.0)" class="key keypos-31">
+<g transform="translate(438, 250) rotate(-10.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">M</text>
 </g>
-<g transform="translate(529, 255)" class="key held keypos-32">
-<rect rx="6" ry="6" x="-51" y="-36" width="102" height="73" class="key held"/>
-<text x="0" y="0" class="key held tap"><tspan style="font-size: 78%">TRACKBALL</tspan></text>
+<g transform="translate(529, 255)" class="key keypos-33">
+<rect rx="6" ry="6" x="-51" y="-36" width="102" height="73" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">TRACKBALL</tspan></text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="602" y="82" width="28" height="26" class="combo"/>
