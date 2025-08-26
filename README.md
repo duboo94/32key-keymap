@@ -1,5 +1,4 @@
 # keymap
-<img src="image/image1.png" >
 <img src="image/keymap.svg" >
 
 키맵을 압축하여 두 개의 레이어를 사용합니다.
