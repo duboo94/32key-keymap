@@ -1,5 +1,4 @@
 # keymap
-<img src="image/keymap.svg" >
 
 키맵을 압축하여 두 개의 레이어를 사용합니다.
 
@@ -33,7 +32,5 @@ Return to the default layer after a certain period of time or by entering keys o
 
 
 # PUBG: Battlegrounds
-<img src="image/keymap_pubg.svg" >
 
 # Path of Exile 2
-<img src="image/keymap_poe2.svg" >
